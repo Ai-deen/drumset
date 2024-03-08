@@ -1,0 +1,108 @@
+.App {
+  background-color: #ddd;
+  min-height: 100vh;  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.drumset {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid aliceblue;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.set{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.drum-pad{
+  padding: 5px;
+  margin: 4px;
+  background-color: #5b5c5f;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.drummachine{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3rem;
+}
+
+.on-button{
+  background-color: orange;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-bottom: 1rem;  font-size: 15px;
+  width: 5rem;
+  height: 2rem;
+}
+
+.off-button{
+  background-color: white;
+  border-radius: 5px;
+  border-width: 0px;
+  margin-bottom: 1rem;
+  font-size: 15px;
+  width: 5rem;
+  height: 2rem;
+
+}
+
+p{
+  font-size: 40px;
+}
+
+
+input[type="range"] {
+  -webkit-appearance: none; /* Remove default styling for WebKit browsers */
+  width: 100%; /* Set width to 100% */
+  height: 6px; /* Set height as needed */
+  background-color: #ddd; /* Set background color */
+  border-radius: 1px; /* Add border radius */
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Remove default styling for thumb in WebKit browsers */
+  appearance: none; /* Remove default styling for thumb */
+  width: 10px; /* Set width of thumb */
+  height: 20px; /* Set height of thumb */
+  background-color: orange; /* Set background color of thumb */
+  border-radius: 5%; /* Make thumb round */
+  cursor: pointer; /* Change cursor to pointer */
+}
+
+.borders{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  padding-bottom: 4rem;
+  border-radius: 10px;
+}
